@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{    
+    height: 900px;
+    background-image: url("../img/reading_me.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+h1{
+    margin-top: 3em;
+    font-size: xx-large;
+    font-weight: 900;
+    text-transform: uppercase;
+    word-spacing: 2px;
+}
+
+h2{
+    margin: 1.5em;
+    font-weight: 700;
+    word-spacing: 1px;
+}
+
+header{
+
+    border-bottom: 2px solid black;
+    height: 4em;
+
+}
+
+.container{
+    width: 70%;
+    border: 3px solid black;
+    margin: 50px auto;
+}
+
+.container p{
+    padding:2em;
+    text-align: justify;
+    
+}
+
+img{
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+}
+.frame{
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    border: 3px solid black;
+    margin: 10px;
+    padding: 15px 10px;
+}
+
+#crypto{
+    height: 220px;
+}
